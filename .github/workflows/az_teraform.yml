@@ -3,9 +3,9 @@
 name: Terraform Azure Deploy
 
 on:
-  workflow_dispatch:
+  push:
+ # workflow_dispatch:
   
-
 jobs:
   terraform:
     runs-on: self-hosted   # your Linux runner VM
